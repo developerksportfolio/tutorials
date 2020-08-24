@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = [Abedin Hyseni]
+	email = [abedin_hyseni@hotmail.de]
+[gui]
+	recentrepo = C:/Users/lirid/Desktop/Git/tutorial.git
+[color]
+	ui = auto
